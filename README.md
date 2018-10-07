@@ -1,0 +1,1 @@
+Function takes array and triggers error if not all items in it are arrays.

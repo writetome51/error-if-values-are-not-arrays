@@ -1,0 +1,23 @@
+{
+  "name": "error-if-values-are-not-arrays",
+  "version": "1.0.0",
+  "description": "Function takes array and triggers error if not all items in it are arrays",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "validation",
+    "type",
+    "checking",
+    "trigger",
+    "error"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "basic-data-handling": "latest"
+  }
+}
