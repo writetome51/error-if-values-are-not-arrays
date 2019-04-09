@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", {value: true});
-var errorIfNotArray_1 = require("basic-data-handling/errorIfNotArray");
+var errorIfNotArray_1 = require("error-if-not-array");
 
 
 function errorIfValuesAreNotArrays(values) {
@@ -10,6 +10,4 @@ function errorIfValuesAreNotArrays(values) {
 		errorIfNotArray_1.errorIfNotArray(values[i]);
 	}
 }
-
-
 exports.errorIfValuesAreNotArrays = errorIfValuesAreNotArrays;
