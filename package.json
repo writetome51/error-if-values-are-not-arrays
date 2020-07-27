@@ -1,7 +1,8 @@
 {
   "name": "error-if-values-are-not-arrays",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Function takes array and triggers error if not all items in it are arrays",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +19,6 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "error-if-not-array": "~1.0.0"
+    "error-if-not-array": "^2.0.0"
   }
 }
