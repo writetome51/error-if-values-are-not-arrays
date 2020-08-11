@@ -2,9 +2,6 @@ import {errorIfNotArray} from 'error-if-not-array';
 
 
 export function errorIfValuesAreNotArrays(values) {
-	errorIfNotArray(values);
-	var i = -1;
-	while (++i < values.length) {
-		errorIfNotArray(values[i]);
-	}
+	let i = -1, length = values.length;
+	while (++i < length) errorIfNotArray(values[i]);
 }
